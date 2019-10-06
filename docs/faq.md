@@ -54,7 +54,7 @@
 
 * [My Pwnagotchi's log timestamps seem...unreliable. Huh?](#my-pwnagotchis-log-timestamps-seemunreliable-huh)
 * [Help! My Pwnagotchi's SD card got corrupted. What gives?](#help-my-pwnagotchis-sd-card-got-corrupted-what-gives)
-* [Sometimes my Pwnagotchi goes blind, spews errors, then reboots. What's going on?](#sometimes-my-pwnagotchi-goes-blind-spews-errors-then-reboots-whats-going-in)
+* [Sometimes my Pwnagotchi goes blind, spews errors, then reboots. What's going on?](#sometimes-my-pwnagotchi-goes-blind-spews-errors-then-reboots-whats-going-on)
 
 ---
 
