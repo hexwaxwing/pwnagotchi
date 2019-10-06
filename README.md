@@ -15,6 +15,7 @@
 full and half WPA handshakes.
 
 ![ui](https://i.imgur.com/c7xh4hN.png)
+<p align="center"><small>ポウナゴッチ!</small></p>
 
 Instead of merely playing [Super Mario or Atari games](https://becominghuman.ai/getting-mario-back-into-the-gym-setting-up-super-mario-bros-in-openais-gym-8e39a96c1e41?gi=c4b66c3d5ced) like most reinforcement learning based "AI" *(yawn)*, Pwnagotchi tunes [its own parameters](https://github.com/evilsocket/pwnagotchi/blob/master/sdcard/rootfs/root/pwnagotchi/config.yml#L54) over time to **get better at pwning WiFi things** in the environments you expose it to. 
 
