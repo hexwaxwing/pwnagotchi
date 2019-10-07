@@ -46,7 +46,7 @@ Last tested on | Pwnagotchi version | Working? | Reference
 
 A way to view your Pwnagotchi's ~~face~~ UI wirelessly via Bluetooth on a separate device. Refresh rate is the same as the e-ink display (every few seconds). This is NOT Bluetooth tethering; this is only Bluetooth as a server on pi side; you connect the Bluetooth and get a DHCP IP address and that's it. This hack cannot leverage the data connection.
 
-Contributed by Systemic in the Slack.
+(Contributed by Systemic in the Slack.)
 
 ##### 1. First Step
 - Comment out the Bluetooth disable line from `/boot/config.txt` : `#dtoverlay=pi3-disable-bt`
@@ -100,3 +100,47 @@ sudo bt-network -a hci0 -s nap pan0 &
 - You can connect to the shell with a terminal emulator ...
 
 Happy tweaking.
+
+## Hardware Modifications
+### Adding an external wireless antenna to the RPi0W
+Last tested on | Pwnagotchi version | Working? | Reference
+---------------|--------------------|----------|-----------|
+2019 October 6 | Unknown | :white_check_mark: | [Tweet](https://twitter.com/mastblast09/status/1180938109850136576)
+
+Step-by-step guide to soldering an external antenna to your Pwnagotchi's RPi0W.
+
+(Contributed by Mastblast09 in the Slack.)
+
+**Parts needed**
+
+- Connector ([example](https://uk.farnell.com/hirose-hrs/u-fl-r-smt-1-10/rf-coaxial-u-fl-straight-jack/dp/1688077?CMP=i-ddd7-00001003))
+- Coax cable ([example](https://uk.farnell.com/multicomp/r-134g7210150ca/cable-u-fl-sma-rp-150mm-50ohm/dp/1699261?CMP=i-ddd7-00001003))
+- Antenna ([example](https://uk.farnell.com/siretta/delta6c-x-smam-s-rp-11/swivel-antenna-2-4-5-8ghz-sma/dp/2717651?st=sma%20antenna)—but any SMA antenna should do the trick)
+
+**Tools needed**
+
+- Soldering iron OR [if you have access to one, but not necessary] hot air rework station
+- Solder
+- Flux
+- Magnifying device (having a stereo microscope is ideal, because the components are VERY small)
+- Steady hands!
+
+**Please be aware that if you modify your PI you will invalidate the FCC certification (if that matters to you).**
+
+I used the following guide for the great images that they were able to take: [briandorey.com/post/raspberry-pi-zero-w-external-antenna-mod](https://www.briandorey.com/post/raspberry-pi-zero-w-external-antenna-mod)
+
+- **WARNING:** If you do not have soldering skills OR don't have the correct tools for this mod, you will damage your Pi.
+- This can be done very quickly with a hot air rework station, but not many folks will have a hot air rework station—so I did it with my soldering iron.
+- You will need some sort of magnification device whether a jewelers loupe or a stereo microscope when it comes to the moving of the 0ohm resistor. it is VERY small.
+
+### Slimming down the RPi0W
+Last tested on | Pwnagotchi version | Working? | Reference
+---------------|--------------------|----------|-----------|
+2019 October 4 | Unknown | :white_check_mark: | Slack
+
+If you want to slim down the thickness of your RPi0W for a slim Pwnagotchi, it can be done.
+
+(Contributed by Mastblast09 in the Slack.)
+
+- Remove the 8-pin header using a simple soldering iron and braid wick.
+- Insert your header pins through the Pi into the screen header, then solder, then snip.
