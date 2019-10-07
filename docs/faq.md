@@ -9,7 +9,7 @@
 * [Just how politely *does* Pwnagotchi deauth?](#just-how-politely-does-pwnagotchi-deauth)
 * [Hey, I want to learn more about how Pwnagotchi actually works.](#hey-i-want-to-learn-more-about-how-pwnagotchi-actually-works)
 * [How is Pwnagotchi using bettercap?](#how-is-pwnagotchi-using-bettercap)
-* [How do I access the bettercap web UI on my Pwnagotchi?(#how-do-i-access-the-bettercap-web-ui-on-my-pwnagotchi)
+* [How do I access the bettercap web UI on my Pwnagotchi?](#how-do-i-access-the-bettercap-web-ui-on-my-pwnagotchi)
 * [What happens if I run a Pwnagotchi without the AI enabled?](#what-happens-if-i-run-a-pwnagotchi-without-the-ai-enabled)
 * [How easy is it to hack Pwnagotchi to add additional functionality?](#how-easy-is-it-to-hack-pwnagotchi-to-add-additional-functionality)
 
